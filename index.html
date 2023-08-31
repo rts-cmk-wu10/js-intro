@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Movie DB</title>
+	<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+	<form class="searchForm">
+		<label>
+			Søgetekst
+			<input type="search" name="search" class="searchForm__input">
+		</label>
+		
+		<button type="submit" class="searchForm__submit">Søg</button>
+	</form>
+
+	<main>
+		<section>
+			<h2>Film</h2>
+			<ul class="movieResults"></ul>
+		</section>
+	</main>
+
+	<script src="/app.js"></script>
+</body>
+</html>
